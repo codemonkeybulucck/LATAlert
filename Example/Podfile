@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LATAlert_Example' do
+  pod 'LATAlert', :path => '../'
+
+  target 'LATAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
