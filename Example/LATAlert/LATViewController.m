@@ -7,8 +7,10 @@
 //
 
 #import "LATViewController.h"
+#import <LATAlert/LATAlert.h>
 
 @interface LATViewController ()
+- (IBAction)buttonClick:(id)sender;
 
 @end
 
@@ -26,4 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonClick:(id)sender {
+    [LATAlert showAlertViewWithVc:self];
+}
 @end

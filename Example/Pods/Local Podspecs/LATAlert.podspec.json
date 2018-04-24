@@ -1,0 +1,24 @@
+{
+  "name": "LATAlert",
+  "version": "0.0.1",
+  "summary": "A short description of LATAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/codemonkeybulucck/LATAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "545390087@qq.com": "codebulucck@163.com"
+  },
+  "source": {
+    "git": "https://github.com/codemonkeybulucck/LATAlert.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LATAlert/Classes/**/*",
+  "public_header_files": "LATAlert/Classes/**/*.h",
+  "frameworks": "UIKit"
+}

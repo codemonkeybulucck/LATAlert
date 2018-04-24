@@ -1,0 +1,6 @@
+framework module LATAlert {
+  umbrella header "LATAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
